@@ -1,0 +1,9 @@
+.begin{
+	background: url(pictures/lake.jpg);
+	/*background: red;*/
+	background-size: 100%;
+	background-position: 50% -100px;
+	height: 500px;
+	
+	text-align: inline-block;
+}
