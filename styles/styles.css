@@ -1,30 +1,108 @@
-@charset "UTF-8";
-body {
-  background-image: url(pictures/lake.jpg);
-  background-size: 100%;
-  position: fixed;
-  margin: 0; }
+* {
+  box-sizing: border-box; }
 
-/*.basement {
-  top: 0;
+/*@charset "UTF-8";*/
+
+body{
+  margin:0;
+  background-size: 100%;  
   position: fixed;
   height: 100%;
-  width: 25%;
-  z-index: -1;
-  background: red; 
-}*/
+  width: 100%;
+}
 
-/*.test {
+.basement{
+  position:fixed;
+  top:0;
+  background:grey;
+  height:100%;
+  width:25%;
+  z-index:-1;
+}
+
+nav a {
+  color:#fff;
+}
+
+.main{
   position: fixed;
-    top: 20%;
-    left: 15%;
+  /*background-image: url(../styles/pictures/lake.jpg);*/
+  background-size: 100%;
+  display: inline-block;
+  padding:3em;
+  height:100vh;
+  width: 100%;
+  transition:all .2s ease;
+}
+
+:checked ~ .main{
+  margin-left:10%;
+}
+
+input[type="checkbox"]{
+  display:none;
+}
+
+label{
+  font-size: 3em;
+}
+
+.portriat{
+  display: block;
+  background-image: url(../styles/pictures/profilepic.jpg);
+  background-size: 100%;
   margin: auto;
-    background-color: #b0e0e6;
-    width: 75%;
-    height: 50%;
-   }*/
+  height: 20em;
+  width: 30em;
+  border-color: green;
+  border-style: solid;
+  z-index: 2;
+}
 
 
+.projects{
+  /*display: inline-block;*/
+  height: 20em;
+  width: 20em;
+  float: left;
+  margin-left: 10em;
+  margin-top: 3em;
+  border-color: green;
+  background-image: url(../styles/pictures/profilepic.jpg);
+  background-size: 150%;
+  border-style: solid; 
+  border-radius: 50%;
+}
+
+.projects:hover{
+  /*background-image: url(../styles/pictures/lake.jpg);*/
+  background:red;
+  opacity: .7;
+}
+
+.piano{
+  /*display: inline-block;*/
+  height: 20em;
+  width: 20em;
+  float: right;
+  margin-right: 10em;
+  margin-top: 3em; 
+  border-color: green;
+  background-image: url(../styles/pictures/profilepic.jpg);
+  background-size: 150%;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.piano:hover{
+  /*background-image: url(../styles/pictures/lake.jpg);*/
+  background:red;
+  opacity: .7;
+}
+
+
+
+/*
 .begin{
     position: relative;
     width: 50%;
@@ -49,11 +127,9 @@ h1{
   position: absolute;
   left: 90%;
 
-}
+}*/
 
-* {
-  box-sizing: border-box; }
-
+/*
 html, body {
   padding: 0;
   margin: 0; }
@@ -61,7 +137,8 @@ html, body {
 .row {
   display: block;
   width: 100%;
-  clear: both; }
+  clear: both;
+  height: 500px; }
 
 .col {
   display: block;
@@ -295,3 +372,4 @@ html, body {
     width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
+*/
