@@ -1,9 +1,9 @@
 
 
- $('.begin').click(function() {
+/* $('.begin').click(function() {
     $('.begin').hide('fast');
-    /*return false;*/
-  });
+    return false;
+  });*/
 
 
 /*window.setInterval(function(){    
@@ -23,12 +23,6 @@ $('.main').css({'background-image': 'url(styles/' +images[Math.floor(Math.random
 });
 
 }, 5);
-
-
-/*var images = ['OUT01ari.jpg', 'OUT02adobe.jpg', 'OUT03alife.jpg', 'OUT04chinup.jpg', 'OUT05datenightwinecologne.jpg', 'OUT06officechair.jpg', 'OUT07printer.jpg', 'OUT08whitewall.jpg', 'OUT09umbrella.jpg', 'OUT10converse.jpg', 'OUT11wardrobebar.jpg'];
-    $('#background').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
-   });*/
-
 
 
 

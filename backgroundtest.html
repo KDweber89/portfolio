@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+</head>
+<body>
+
+<div id="mast-head" style=""background:" url(path="" to="" images="" 1.jpg)="" no-repeat;="" height:="" 300px;="" width:="" 300px;"=""></div>
+
+
+</body>
+
+<script type="text/javascript" src="path/to/js/jquery.js"></script>
+<script type="text/javascript">
+ $(document).ready(function(){
+ 
+	var imgArr = new Array( // relative paths of images
+	 'path/to/images/1.jpg',
+	 'path/to/images/2.jpg',
+	 'path/to/images/3.jpg',
+	 'path/to/images/4.jpg'
+	 );
+	 
+	var preloadArr = new Array();
+	var i;
+ 
+	/* preload images */
+	for(i=0; i < imgArr.length; i++){
+	 preloadArr[i] = new Image();
+	 preloadArr[i].src = imgArr[i];
+	}
+
+ 
+ });
+</script>
+
+
+</html>
